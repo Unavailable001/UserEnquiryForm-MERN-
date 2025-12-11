@@ -1,0 +1,94 @@
+/* TABLE STYLING */
+.enquiry-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.enquiry-table th {
+    background-color: #343a40;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.enquiry-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.enquiry-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* MODERN BUTTONS */
+.btn-edit {
+    background-color: #0d6efd; 
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn-edit:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+}
+
+/* SAVE BUTTON */
+.btn-save {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: #157347;
+}
+
+/* FORM */
+.enquiry-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.enquiry-form input, .enquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.enquiry-form label {
+    font-weight: bold;
+}
